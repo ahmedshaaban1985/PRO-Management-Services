@@ -1,0 +1,66 @@
+Requirement already satisfied: pip in c:\programdata\promanagement\venv\lib\site-packages (25.0.1)
+Collecting pip
+  Using cached pip-26.2.1-py3-none-any.whl.metadata (4.6 kB)
+Using cached pip-26.2.1-py3-none-any.whl (1.8 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 25.0.1
+    Uninstalling pip-25.0.1:
+      Successfully uninstalled pip-25.0.1
+Successfully installed pip-26.2.1
+Collecting fastapi==0.115.12 (from -r requirements.txt (line 1))
+  Downloading fastapi-0.115.12-py3-none-any.whl.metadata (27 kB)
+Collecting uvicorn==0.34.2 (from -r requirements.txt (line 2))
+  Downloading uvicorn-0.34.2-py3-none-any.whl.metadata (6.5 kB)
+Collecting python-multipart==0.0.20 (from -r requirements.txt (line 3))
+  Downloading python_multipart-0.0.20-py3-none-any.whl.metadata (1.8 kB)
+Collecting openpyxl==3.1.5 (from -r requirements.txt (line 4))
+  Using cached openpyxl-3.1.5-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting pymupdf==1.25.5 (from -r requirements.txt (line 5))
+  Downloading pymupdf-1.25.5-cp39-abi3-win_amd64.whl.metadata (3.4 kB)
+Collecting pypdf==5.4.0 (from -r requirements.txt (line 6))
+  Downloading pypdf-5.4.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting starlette<0.47.0,>=0.40.0 (from fastapi==0.115.12->-r requirements.txt (line 1))
+  Downloading starlette-0.46.2-py3-none-any.whl.metadata (6.2 kB)
+Collecting pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4 (from fastapi==0.115.12->-r requirements.txt (line 1))
+  Downloading pydantic-2.14.1-py3-none-any.whl.metadata (133 kB)
+Collecting typing-extensions>=4.8.0 (from fastapi==0.115.12->-r requirements.txt (line 1))
+  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting click>=7.0 (from uvicorn==0.34.2->-r requirements.txt (line 2))
+  Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting h11>=0.8 (from uvicorn==0.34.2->-r requirements.txt (line 2))
+  Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting et-xmlfile (from openpyxl==3.1.5->-r requirements.txt (line 4))
+  Using cached et_xmlfile-2.0.0-py3-none-any.whl.metadata (2.7 kB)
+Collecting annotated-types>=0.6.0 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.115.12->-r requirements.txt (line 1))
+  Downloading annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.50.1 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.115.12->-r requirements.txt (line 1))
+  Downloading pydantic_core-2.50.1-cp312-cp312-win_amd64.whl.metadata (6.7 kB)
+Collecting typing-inspection>=0.4.4 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.115.12->-r requirements.txt (line 1))
+  Downloading typing_inspection-0.4.4-py3-none-any.whl.metadata (2.6 kB)
+Collecting anyio<5,>=3.6.2 (from starlette<0.47.0,>=0.40.0->fastapi==0.115.12->-r requirements.txt (line 1))
+  Downloading anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+Collecting idna>=2.8 (from anyio<5,>=3.6.2->starlette<0.47.0,>=0.40.0->fastapi==0.115.12->-r requirements.txt (line 1))
+  Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+Downloading fastapi-0.115.12-py3-none-any.whl (95 kB)
+Downloading uvicorn-0.34.2-py3-none-any.whl (62 kB)
+Downloading python_multipart-0.0.20-py3-none-any.whl (24 kB)
+Using cached openpyxl-3.1.5-py2.py3-none-any.whl (250 kB)
+Downloading pymupdf-1.25.5-cp39-abi3-win_amd64.whl (16.6 MB)
+   ---------------------------------------- 16.6/16.6 MB 1.9 MB/s  0:00:08
+Downloading pypdf-5.4.0-py3-none-any.whl (302 kB)
+Downloading pydantic-2.14.1-py3-none-any.whl (488 kB)
+Downloading pydantic_core-2.50.1-cp312-cp312-win_amd64.whl (2.2 MB)
+   ---------------------------------------- 2.2/2.2 MB 2.4 MB/s  0:00:00
+Downloading starlette-0.46.2-py3-none-any.whl (72 kB)
+Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+Downloading click-8.5.0-py3-none-any.whl (125 kB)
+Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Downloading idna-3.20-py3-none-any.whl (69 kB)
+Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Downloading typing_inspection-0.4.4-py3-none-any.whl (14 kB)
+Using cached et_xmlfile-2.0.0-py3-none-any.whl (18 kB)
+Installing collected packages: typing-extensions, python-multipart, pypdf, pymupdf, idna, h11, et-xmlfile, click, annotated-types, uvicorn, typing-inspection, pydantic-core, openpyxl, anyio, starlette, pydantic, fastapi
+
+Successfully installed annotated-types-0.8.0 anyio-4.15.1 click-8.5.0 et-xmlfile-2.0.0 fastapi-0.115.12 h11-0.16.0 idna-3.20 openpyxl-3.1.5 pydantic-2.14.1 pydantic-core-2.50.1 pymupdf-1.25.5 pypdf-5.4.0 python-multipart-0.0.20 starlette-0.46.2 typing-extensions-4.16.0 typing-inspection-0.4.4 uvicorn-0.34.2
